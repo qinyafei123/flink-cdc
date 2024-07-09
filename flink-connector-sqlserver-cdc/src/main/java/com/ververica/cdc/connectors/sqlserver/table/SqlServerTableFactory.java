@@ -54,7 +54,7 @@ import static org.apache.flink.util.Preconditions.checkState;
 /** Factory for creating configured instance of {@link SqlServerTableSource}. */
 public class SqlServerTableFactory implements DynamicTableSourceFactory {
 
-    private static final String IDENTIFIER = "sqlserver-cdc";
+    private static final String IDENTIFIER = "sqlserver-cdc-test";
 
     private static final ConfigOption<String> HOSTNAME =
             ConfigOptions.key("hostname")
